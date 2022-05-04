@@ -1,0 +1,65 @@
+:root {
+    --light-bg-color: #fff;
+    --text-color-light: #fff;
+    --section-bg-color: #eff1f8;
+    --blue-accent-color: #4285f4;
+    --card-button-bg-color: #fbbc04;
+    --card-button-text-color: #fff;
+    --card-body-title: #4285f4;
+    --card-body-title-size: 16px;
+    --card-body-subtitle-size: 14px;
+    --card-body-size: 14px;
+    --section-title-size: 30px;
+  }
+
+  body {
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--section-bg-color);
+    height: 100%;
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-between;
+    padding-block: 10px;
+    
+  }
+
+  .section-title {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0;
+    margin-bottom: 10px;
+   
+  }
+
+  .section-title img {
+   vertical-align: middle;
+   width: 164px;
+height: 164px;
+  }
+
+  .section-title span {
+    font-weight: 900;
+    font-size: var(--section-title-size) !important;
+    text-transform: capitalize;
+    margin-left: -30px;
+  } 
+
+  
